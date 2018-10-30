@@ -1,0 +1,17 @@
+1. 数据库基础
+
+ 1. 什么是数据库
+    电子化的文件柜（可增删改查操作）
+ 2. 数据库分类
+    关系型数据库：以关系型形式存放
+    非关系型数据库： 各有差异
+ 3. SQL
+    select
+      select Column1 ... from tbl where Column = value order by id desc
+             字段名             表名           条件        排序      id 逆序
+    
+    insert into tbl (Column1,Colunm2...) value (value1,value2)
+
+    delete from tbl where Column = value
+
+    update tbl set Column = value where Column = value
